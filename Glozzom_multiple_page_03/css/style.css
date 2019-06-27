@@ -27,3 +27,37 @@
     background: url('../images/image3.jpg');
     background-size: cover;
 }
+
+/* Home heading section style */
+#home-heading {
+    position: relative;
+    min-height: 200px;
+    background: url('../images/lights.jpg') no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    color: #fff;
+
+}
+
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    bottom:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.8);
+}
+
+#video-paly {
+    position: relative;
+    min-height: 200px;
+    background: url('../images/media.jpg') no-repeat;
+    background-attachment: fixed;
+    background-position: 0 -300px;
+    text-align: center;
+    color: #fff;
+}
+
+#video-play a {
+    color: #fff;
+}
