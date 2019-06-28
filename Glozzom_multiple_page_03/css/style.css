@@ -77,3 +77,33 @@
 .about-img {
     margin-top: -50px;
 }
+
+/* Services Section Style */
+#faq .card {
+    border: #444;
+}
+
+#faq a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#faq .card-header,
+#faq .card-body {
+    background: #333;
+}
+
+#main-footer {
+    background: #000;
+    color: #fff;
+}
+
+@media (max-height:414px){
+    /* body {
+        display: none;
+    } */
+
+    .nav-item  a {
+        font-size: .8rem !important;
+    }
+}
